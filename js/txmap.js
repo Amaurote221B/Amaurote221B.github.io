@@ -138,7 +138,11 @@ function showWelcome() {
                     posdesc = "落霞与孤鹜齐飞，秋水共长天一色。";
                     break;
                 case "山东省":
-                    posdesc = "遥望齐州九点烟，一泓海水杯中泻。";
+                   switch (ipLoacation.result.ad_info.city) {
+                        case "青岛市":
+                            posdesc = "因为一个人，爱上一座城。我在北京很想你";
+                            break;
+                   };
                     break;
                 case "湖北省":
                     posdesc = "来碗热干面！";
