@@ -208,14 +208,19 @@ function showWelcome() {
     //根据本地时间切换欢迎语
     let timeChange;
     let date = new Date();
-    if (date.getHours() >= 5 && date.getHours() < 11) timeChange = "<span>上午好</span>，一日之计在于晨！";
-    else if (date.getHours() >= 11 && date.getHours() < 13) timeChange = "<span>中午好</span>，该摸鱼吃午饭了。";
-    else if (date.getHours() >= 13 && date.getHours() < 15) timeChange = "<span>下午好</span>，懒懒地睡个午觉吧！";
-    else if (date.getHours() >= 15 && date.getHours() < 16) timeChange = "<span>三点几啦</span>，一起饮茶呀！";
-    else if (date.getHours() >= 16 && date.getHours() < 19) timeChange = "<span>夕阳无限好！</span>";
-    else if (date.getHours() >= 19 && date.getHours() < 24) timeChange = "<span>晚上好</span>，夜生活嗨起来！";
+    if (date.getDay() >= 1 && date.getDay() < 6 && date.getHours() >= 6 && date.getHours() < 9) timeChange = "<span>早上好</span>，吃早饭了吗？又要开始一天的辛勤工作了！";
+    else if (date.getDay() >= 1 && date.getDay() < 6 && date.getHours() >= 9 && date.getHours() < 13) timeChange = "<span>中午好</span>，是时候摸鱼吃午饭了。";
+    else if (date.getDay() >= 1 && date.getDay() < 6 && date.getHours() >= 13 && date.getHours() < 14) timeChange = "<span>午休时间到</span>，懒懒地睡个午觉吧！";
+    else if (date.getDay() >= 1 && date.getDay() < 6 && date.getHours() >= 14 && date.getHours() < 18) timeChange = "<span>下午好</span>，又到工作时间了啊呜！";
+    else if (date.getDay() >= 1 && date.getDay() < 6 && date.getHours() >= 18 && date.getHours() < 20) timeChange = "<span>下班了下班了！忙碌的一天结束了</span>";
+    else if (date.getDay() == 6 && date.getHours() >= 9 && date.getHours() < 12) timeChange = "<span>周六了</span>，美好的周末，开心！";
+    else if (date.getDay() == 6 && date.getHours() >= 12 && date.getHours() < 15) timeChange = "<span>午休了</span>，充能ing~";
+    else if (date.getDay() == 6 && date.getHours() >= 15 && date.getHours() < 20) timeChange = "<span>下午好</span>，Happy Time！";
+    else if (date.getDay() == 0 && date.getHours() >= 9 && date.getHours() < 12) timeChange = "<span>周日了</span>，快抓住周末的尾巴！";
+    else if (date.getDay() == 0 && date.getHours() >= 12 && date.getHours() < 20) timeChange = "<span>下午好</span>，把握时间！";
+    else if (date.getHours() >= 20 && date.getHours() < 24) timeChange = "<span>晚上好</span>，站长和女朋友的甜蜜时光到了！";
     else timeChange = "夜深了，早点休息，少熬夜。";
-
+    
     try {
         //自定义文本和需要放的位置
         document.getElementById("welcome-info").innerHTML =
