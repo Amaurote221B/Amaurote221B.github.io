@@ -8,7 +8,7 @@
       <link href="/posts/f44541a5.html"/>
       <url>/posts/f44541a5.html</url>
       
-        <content type="html"><![CDATA[<h2 id="本次进度"><a href="#本次进度" class="headerlink" title="本次进度"></a>本次进度</h2><p>距离上次更新隔了很久，从2023年跨到了2024年，中间因为工作忙等各种原因，没有再更新和研究。最近职场上慢慢修习摆烂技能，因此又开始抽时间折腾了一些。</p><ol><li>更新了<u>关于</u>和<u>恋爱ING</u>的内容</li><li>参照了Leonus大佬的<div class="tag link"><a class="link-card" title="新年倒计时改良" href="https://blog.leonus.cn/2023/newYearCard2.html"><div class="left"><img src="/img/link.png"/></div><div class="right"><p class="text">新年倒计时改良</p><p class="url">https://blog.leonus.cn/2023/newYearCard2.html</p></div></a></div>，增加了新年倒计时卡片。（<del>自己太蠢了忘了引入自定义css导致图片加载不出来，折腾检查了一晚上</del>）不过好歹是好了！由于图片大小原因，按大小缩放显示有误因此改为了平铺，反而感觉更可爱了一些？</li><li>更新了一下Algolia搜索系统</li></ol><h2 id="ToDo-List"><a href="#ToDo-List" class="headerlink" title="ToDo List"></a>ToDo List</h2><ul><li>可能因为cdn的原因？导致底部github徽标图片加载出不来了，琢磨了一下发现了新的解决途径，可以尝试一下。</li><li>图床研究了一段时间，还没着手去做。</li><li>计划引入豆瓣和番剧。</li><li>研究一下Leonus大佬的<div class="tag link"><a class="link-card" title="基于Memos实现说说和清单功能" href="https://blog.leonus.cn/2023/memeos.html"><div class="left"><img src="/img/link.png"/></div><div class="right"><p class="text">基于Memos实现说说和清单功能</p><p class="url">https://blog.leonus.cn/2023/memeos.html</p></div></a></div>。</li><li>研究一下Ariasaka大佬的<div class="tag link"><a class="link-card" title="Twikoo评论扩展" href="https://yisous.xyz/posts/670e47f/#CommentBarrage%20V3.0"><div class="left"><img src="/img/link.png"/></div><div class="right"><p class="text">Twikoo评论扩展</p><p class="url">https://yisous.xyz/posts/670e47f/#CommentBarrage%20V3.0</p></div></a></div>。</li><li>其余就是等内容多一些后，增加一些文章排版，轮播之类的。</li><li>不定时更新！最近除了研究各种魔改教程和文档，还有学习html，css，js的内容，以及其他的~丰富技能点。</li><li>不定时更新填补<emp>恋爱ING</emp>。</li></ul><p>希望自己能够<emp>持续</emp>记录，给自己动力，激励自己。<br>就是也要注意不能因此忽略或敷衍宝贝女朋友了！<emp>切记</emp>！</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="本次进度"><a href="#本次进度" class="headerlink" title="本次进度"></a>本次进度</h2><p>距离上次更新隔了很久，从2023年跨到了2024年，中间因为工作忙等各种原因，没有再更新和研究。最近职场上慢慢修习摆烂技能，因此又开始抽时间折腾了一些。</p><ol><li>更新了<u><font color=#F08080>关于</font></u>和<u><font color=#F08080>恋爱ING</font></u>的内容</li><li>参照了Leonus大佬的<a href="https://blog.leonus.cn/2023/newYearCard2.html">新年倒计时改良</a>，增加了新年倒计时卡片。（<del>自己太蠢了忘了引入自定义css导致图片加载不出来，折腾检查了一晚上</del>）不过好歹是好了！由于图片大小原因，按大小缩放显示有误因此改为了平铺，反而感觉更可爱了一些？</li><li>更新了一下Algolia搜索系统</li></ol><h2 id="ToDo-List"><a href="#ToDo-List" class="headerlink" title="ToDo List"></a>ToDo List</h2><ul><li>可能因为cdn的原因？导致底部github徽标图片加载出不来了，琢磨了一下发现了新的解决途径，可以尝试一下。</li><li>图床研究了一段时间，还没着手去做。</li><li>计划引入豆瓣和番剧。</li><li>研究一下Leonus大佬的<a href="https://blog.leonus.cn/2023/memeos.html">基于Memos实现说说和清单功能</a>。</li><li>研究一下Ariasaka大佬的<a href="https://yisous.xyz/posts/670e47f/#CommentBarrage%20V3.0">Twikoo评论扩展</a>。</li><li>其余就是等内容多一些后，增加一些文章排版，轮播之类的。</li><li>不定时更新！最近除了研究各种魔改教程和文档，还有学习html，css，js的内容，以及其他的~丰富技能点。</li><li>不定时更新填补<emp><font color=#F08080>恋爱ING</font></emp>。</li></ul><p>希望自己能够<emp><font color=#F08080>持续</font></emp>记录，给自己动力，激励自己。<br>就是也要注意不能因此忽略或敷衍宝贝女朋友了！<wavy><font color=red>切记</font></wavy>！</p>]]></content>
       
       
       
@@ -42,7 +42,7 @@
     
     
     <entry>
-      <title>建站第一篇记录</title>
+      <title>建站记录-第一弹</title>
       <link href="/posts/6b856f8.html"/>
       <url>/posts/6b856f8.html</url>
       
