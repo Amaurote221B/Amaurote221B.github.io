@@ -435,7 +435,7 @@ h6::before {
 .newYear-slider .swiper-slide {
   min-height: 160px;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 
 #newYear-main {
