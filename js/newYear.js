@@ -45,7 +45,7 @@ function newYear() {
   }
   
   function newYearSwiper() {
-    var swiper = new Swiper('.newYear-slider', {
+    var swiper = new swiper('.newYear-slider', {
       passiveListeners: true,
       loop: true,
       // autoplay: false,
