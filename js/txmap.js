@@ -220,7 +220,7 @@ function showWelcome() {
     else if (date.getDay() == 6 && date.getHours() >= 15 && date.getHours() < 20) timeChange = "<span>下午好</span>，Happy Time！";
     else if (date.getDay() == 0 && date.getHours() >= 6 && date.getHours() < 9) timeChange = "<span>周日了</span>！休养生息ing~";
     else if (date.getDay() == 0 && date.getHours() >= 9 && date.getHours() < 12) timeChange = "<span>上午好</span>，快抓住周末的尾巴！";
-    else if (date.getDay() == 0 && date.getHours() >= 12 && date.getHours() < 20) timeChange = "<span>要到下午啦</span>，把握时间！";
+    else if (date.getDay() == 0 && date.getHours() >= 12 && date.getHours() < 20) timeChange = "<span>周末又要结束了</span>，把握时间！";
     else if (date.getHours() >= 20 && date.getHours() < 24) timeChange = "<span>晚上好</span>，站长和女朋友的甜蜜时光到了！";
     else timeChange = "夜深了，早点休息，少熬夜。";
     
