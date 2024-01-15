@@ -1,4 +1,3 @@
-@import "//at.alicdn.com/t/c/font_4410419_df0785e1a2h.css";
 /* 页脚与头图透明 */
 #footer {
     background: transparent !important;
@@ -486,15 +485,6 @@ h6::before {
 
 [data-theme=dark] #newYear-main .mask {
   background-color: rgba(0, 0, 0, .3);
-}
-
-.iconfont {
-  font-family: "iconfont" !important;
-  /* 这里可以自定义图标大小 */
-  font-size: 3em;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 svg.icon {
