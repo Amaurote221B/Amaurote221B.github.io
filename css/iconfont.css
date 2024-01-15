@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 4410419 */
-  src: url('//at.alicdn.com/t/c/font_4410419_fka6ywotjw7.woff2?t=1705323850266') format('woff2'),
-       url('//at.alicdn.com/t/c/font_4410419_fka6ywotjw7.woff?t=1705323850266') format('woff'),
-       url('//at.alicdn.com/t/c/font_4410419_fka6ywotjw7.ttf?t=1705323850266') format('truetype');
+  src: url('//at.alicdn.com/t/c/font_4410419_4v5pe7e93o.woff2?t=1705327764466') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4410419_4v5pe7e93o.woff?t=1705327764466') format('woff'),
+       url('//at.alicdn.com/t/c/font_4410419_4v5pe7e93o.ttf?t=1705327764466') format('truetype');
 }
 
 .iconfont {
@@ -13,44 +13,56 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-yinle:before {
-  content: "\e642";
+.icon-lianjie1:before {
+  content: "\ecac";
 }
 
-.icon-bilibilidonghua:before {
-  content: "\e8af";
+.icon-liuyanban:before {
+  content: "\e602";
 }
 
-.icon-shuji:before {
-  content: "\e605";
+.icon-pinweishenghuo:before {
+  content: "\e66d";
 }
 
-.icon-dianying:before {
-  content: "\e627";
+.icon-guanyuwomen:before {
+  content: "\1010e";
 }
 
-.icon-vynil:before {
-  content: "\e61f";
+.icon-xinlijiankang:before {
+  content: "\e607";
+}
+
+.icon--yingpian-:before {
+  content: "\e601";
+}
+
+.icon-danganku:before {
+  content: "\1007d";
+}
+
+.icon-shuji1:before {
+  content: "\100c9";
+}
+
+.icon-bilibili:before {
+  content: "\e608";
+}
+
+.icon-shouye1:before {
+  content: "\e674";
+}
+
+.icon-B--copy:before {
+  content: "\e600";
+}
+
+.icon-yinlehe:before {
+  content: "\e68b";
 }
 
 .icon-biaoqian:before {
   content: "\e693";
-}
-
-.icon-guanyu:before {
-  content: "\eaf2";
-}
-
-.icon-aixin:before {
-  content: "\e64b";
-}
-
-.icon-liuyanban-05:before {
-  content: "\e630";
-}
-
-.icon-dangan:before {
-  content: "\e815";
 }
 
 .icon-lianjie:before {
@@ -63,14 +75,6 @@
 
 .icon-shijianzhou:before {
   content: "\e61b";
-}
-
-.icon-shenghuo:before {
-  content: "\100c6";
-}
-
-.icon-shouye:before {
-  content: "\e620";
 }
 
 .icon-gengduo:before {
