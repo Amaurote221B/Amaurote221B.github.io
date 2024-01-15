@@ -1,3 +1,4 @@
+@import "//at.alicdn.com/t/c/font_4410419_df0785e1a2h.css";
 /* 页脚与头图透明 */
 #footer {
     background: transparent !important;
@@ -497,8 +498,8 @@ h6::before {
 }
 
 svg.icon {
-  width: 3em;
-  height: 3em;
+  width: 1.28em;
+  height: 1.28em;
   vertical-align: -0.15em;
   fill: currentColor;
   overflow: hidden;
