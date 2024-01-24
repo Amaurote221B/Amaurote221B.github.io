@@ -40,7 +40,7 @@ function indexTalk() {
     let d = loadData('talk', 10);
     if (d) talk(d);
     else {
-        fetch('http://106.14.106.147:5230/api/v1/memo?creatorId=1&tag=日常叨叨&limit=10').then(res => res.json()).then(data => { // 更改地址和ID
+        fetch('https://me.amaurote221b.cc/api/v1/memo?creatorId=1&tag=日常叨叨&limit=10').then(res => res.json()).then(data => { // 更改地址和ID
             data = toText(data)
             talk(data);
             saveData('talk', data);
